@@ -615,7 +615,7 @@ if (localStorage.sound === undefined) {
 }
 sndo.has_sound = localStorage.sound === 'true';
 sndo.div = document.createElement('div');
-sndo.div.style.backgroundImage = 'url("https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/speed%20(31).png?v=1733500316746")';
+sndo.div.style.backgroundImage = 'url("https://github.com/levijude/flappy-2048/blob/main/speed%20(13).png")';
 sndo.div.style.position = 'absolute';
 sndo.div.style.width = '64px';
 sndo.div.style.height = '64px';
@@ -740,7 +740,7 @@ if (game.bg.style.background = '#000000') {
 }
 dm.on = game.bg.style.background = '#a0a0a0';
 dm.div = document.createElement('div');
-dm.div.style.backgroundImage = 'url("https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/speed%20(25).png?v=1733442356626")';
+dm.div.style.backgroundImage = 'url("https://github.com/levijude/flappy-2048/blob/main/speed%20(12).png")';
 dm.div.style.position = 'absolute';
 dm.div.style.width = '64px';
 dm.div.style.height = '64px';
