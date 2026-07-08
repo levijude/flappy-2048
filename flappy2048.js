@@ -511,30 +511,30 @@ spd.showing = true;
 spd.hiding = false;
 
 if (document.qvar == 0.5) {
-  spd.img = loadGameImage('https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/speed%20(1).png?v=1727586610796');
+  spd.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(9).png');
 } 
 if (document.qvar == 1) {
-  spd.img = loadGameImage('https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/speed%20(2).png?v=1727586621769');
+  spd.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(9).png');
 } 
 if (document.qvar == 1.5) {
-  spd.img = loadGameImage('https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/speed%20(3).png?v=1727586644599');
+  spd.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(9).png');
 } 
 if (document.qvar == 2) {
-  spd.img = loadGameImage('https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/speed%20(4).png?v=1727586655881');
+  spd.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(9).png');
 } 
 if (document.qvar == 2.5) {
-  spd.img = loadGameImage('https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/speed%20(5).png?v=1727586665025');
+  spd.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(9).png');
 } 
 if (document.qvar == 3) {
-  spd.img = loadGameImage('https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/speed%20(6).png?v=1727586673009');
+  spd.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(9).png');
 } 
 if (document.qvar == 3.5) {
-  spd.img = loadGameImage('https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/speed%20(7).png?v=1727586681992');
+  spd.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(9).png');
 } 
 if (document.qvar == 4) {
-  spd.img = loadGameImage('https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/speed%20(8).png?v=1727586690052');
+  spd.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(9).png');
 } else {
-  spd.img = loadGameImage('https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/speed.png?v=1727586602239');
+  spd.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(9).png');
 };
 spd.img.style.position = 'absolute';
 spd.img.style.opacity = 0;
@@ -551,7 +551,7 @@ gameover.a = -.2;
 gameover.fr = 0;
 gameover.showing = false;
 gameover.hiding = true;
-gameover.img = loadGameImage('https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/speed%20(23).png?v=1733426751006'); // 626 x 144
+gameover.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(9).png'); // 626 x 144
 gameover.img.style.position = 'absolute';
 gameover.img.style.opacity = 0;
 gameover.img.style.zIndex = '42069';
