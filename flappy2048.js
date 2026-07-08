@@ -491,7 +491,7 @@ logo.a = -.2;
 logo.fr = 0;
 logo.showing = true;
 logo.hiding = false;
-logo.img = loadGameImage('https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/speed%20(22).png?v=1733426697688'); // 626 x 188
+logo.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(8).png'); // 626 x 188
 logo.img.style.position = 'absolute';
 logo.img.style.opacity = 0;
 logo.img.style.zIndex = '42069';
