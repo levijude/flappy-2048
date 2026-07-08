@@ -598,7 +598,7 @@ var c2s = {};
 c2s.a = -1;
 c2s.showing = true;
 c2s.hiding = false;
-c2s.img = loadGameImage('https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/speed%20(34).png?v=1733501584923'); // 337 x 75
+c2s.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(15).png'); // 337 x 75
 c2s.img.style.position = 'absolute';
 c2s.img.style.opacity = 0;
 c2s.img.style.zIndex = '42070';
