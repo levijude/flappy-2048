@@ -480,7 +480,7 @@ wing.ctx2 = wing.canvas2.getContext('2d');
 
 var wingfill = {};
 
-wingfill.img = loadGameImage('https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/speed%20(30).png?v=1733444353739'); // 150 x 131
+wingfill.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(7).png'); // 150 x 131
 wingfill.canvas = document.createElement('canvas');
 wingfill.canvas.width = 150;
 wingfill.canvas.height = 131;
