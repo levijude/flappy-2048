@@ -785,7 +785,7 @@ ground.canvas = document.createElement('canvas');
 ground.canvas.style.position = 'absolute';
 ground.canvas.style.zIndex = '31337';
 ground.ctx = ground.canvas.getContext('2d');
-ground.bit = loadGameImage('https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/1c81a4de-011a-4582-8052-3dd9851dfb78.image.png?v=1716383991552');
+ground.bit = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/download%20(1).png');
 
 
 
