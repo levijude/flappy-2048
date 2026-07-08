@@ -467,7 +467,7 @@ var wing = {};
 wing.fr = 0;
 wing.vfr = 0;
 
-wing.img = loadGameImage('https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/speed%20(19).png?v=1733379877306'); // 150 x 131
+wing.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(6).png'); // 150 x 131
 wing.canvas = document.createElement('canvas');
 wing.canvas.width = 150;
 wing.canvas.height = 131;
