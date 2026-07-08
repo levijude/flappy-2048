@@ -288,7 +288,7 @@ var loadGameSound = function (n, chc) { // file name, channel count
   sch.can_play = true;
   o.channels.push(sch);
   ao.src = n;
-  if (ao.src == 'https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/explosion-42132.mp3?v=1733508361323') {
+  if (ao.src == 'https://github.com/levijude/flappy-2048/blob/main/u_f1ee7vf7na-blip-131856.mp3') {
     ao.volume = 0.2
   }
   ao.type = "audio/wav";
@@ -432,15 +432,15 @@ var ww = 768;
 var hh = 920;
 
 
-var flap = loadGameSound('https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/jump2.wav?v=1716429667317', 3);
+var flap = loadGameSound('https://github.com/levijude/flappy-2048/blob/main/u_f1ee7vf7na-blip-131856.mp3', 3);
 
-var coin = loadGameSound('https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/double.wav?v=1716429826142', 1);
+var coin = loadGameSound('https://github.com/levijude/flappy-2048/blob/main/u_f1ee7vf7na-blip-131856.mp3', 1);
 
-var special = loadGameSound('https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/doublespecial.wav?v=1716430293730', 1);
+var special = loadGameSound('https://github.com/levijude/flappy-2048/blob/main/u_f1ee7vf7na-blip-131856.mp3', 1);
 
-var punch = loadGameSound('https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/explosion-42132.mp3?v=1733508361323', 5);
+var punch = loadGameSound('https://github.com/levijude/flappy-2048/blob/main/u_f1ee7vf7na-blip-131856.mp3', 5);
 
-var hs = loadGameSound('https://cdn.glitch.global/b871a81a-c654-41e2-b425-e45e45f3219f/sam%20(2).wav?v=1716431134886', 1);
+var hs = loadGameSound('https://github.com/levijude/flappy-2048/blob/main/u_f1ee7vf7na-blip-131856.mp3', 1);
 /*
 game.canvas = document.createElement('canvas');
 game.canvas.width = ww;
