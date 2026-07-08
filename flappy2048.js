@@ -288,7 +288,7 @@ var loadGameSound = function (n, chc) { // file name, channel count
   sch.can_play = true;
   o.channels.push(sch);
   ao.src = n;
-  if (ao.src == 'https://github.com/levijude/flappy-2048/blob/main/u_f1ee7vf7na-blip-131856.mp3') {
+  if (ao.src == 'u_f1ee7vf7na-blip-131856.mp3') {
     ao.volume = 0.2
   }
   ao.type = "audio/wav";
@@ -432,15 +432,15 @@ var ww = 768;
 var hh = 920;
 
 
-var flap = loadGameSound('https://github.com/levijude/flappy-2048/blob/main/u_f1ee7vf7na-blip-131856.mp3', 3);
+var flap = loadGameSound('u_f1ee7vf7na-blip-131856.mp3', 3);
 
-var coin = loadGameSound('https://github.com/levijude/flappy-2048/blob/main/u_f1ee7vf7na-blip-131856.mp3', 1);
+var coin = loadGameSound('u_f1ee7vf7na-blip-131856.mp3', 1);
 
-var special = loadGameSound('https://github.com/levijude/flappy-2048/blob/main/u_f1ee7vf7na-blip-131856.mp3', 1);
+var special = loadGameSound('u_f1ee7vf7na-blip-131856.mp3', 1);
 
-var punch = loadGameSound('https://github.com/levijude/flappy-2048/blob/main/u_f1ee7vf7na-blip-131856.mp3', 5);
+var punch = loadGameSound('u_f1ee7vf7na-blip-131856.mp3', 5);
 
-var hs = loadGameSound('https://github.com/levijude/flappy-2048/blob/main/u_f1ee7vf7na-blip-131856.mp3', 1);
+var hs = loadGameSound('u_f1ee7vf7na-blip-131856.mp3', 1);
 /*
 game.canvas = document.createElement('canvas');
 game.canvas.width = ww;
@@ -467,7 +467,7 @@ var wing = {};
 wing.fr = 0;
 wing.vfr = 0;
 
-wing.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(6).png'); // 150 x 131
+wing.img = loadGameImage('speed(6).png'); // 150 x 131
 wing.canvas = document.createElement('canvas');
 wing.canvas.width = 150;
 wing.canvas.height = 131;
@@ -480,7 +480,7 @@ wing.ctx2 = wing.canvas2.getContext('2d');
 
 var wingfill = {};
 
-wingfill.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(7).png'); // 150 x 131
+wingfill.img = loadGameImage('speed(7).png'); // 150 x 131
 wingfill.canvas = document.createElement('canvas');
 wingfill.canvas.width = 150;
 wingfill.canvas.height = 131;
@@ -491,7 +491,7 @@ logo.a = -.2;
 logo.fr = 0;
 logo.showing = true;
 logo.hiding = false;
-logo.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(8).png'); // 626 x 188
+logo.img = loadGameImage('speed(8).png'); // 626 x 188
 logo.img.style.position = 'absolute';
 logo.img.style.opacity = 0;
 logo.img.style.zIndex = '42069';
@@ -511,30 +511,9 @@ spd.showing = true;
 spd.hiding = false;
 
 if (document.qvar == 0.5) {
-  spd.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(9).png');
-} 
-if (document.qvar == 1) {
-  spd.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(9).png');
-} 
-if (document.qvar == 1.5) {
-  spd.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(9).png');
-} 
-if (document.qvar == 2) {
-  spd.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(9).png');
-} 
-if (document.qvar == 2.5) {
-  spd.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(9).png');
-} 
-if (document.qvar == 3) {
-  spd.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(9).png');
-} 
-if (document.qvar == 3.5) {
-  spd.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(9).png');
-} 
-if (document.qvar == 4) {
-  spd.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(9).png');
+  spd.img = loadGameImage('speed(9).png');
 } else {
-  spd.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(9).png');
+  spd.img = loadGameImage('speed(9).png');
 };
 spd.img.style.position = 'absolute';
 spd.img.style.opacity = 0;
@@ -551,7 +530,7 @@ gameover.a = -.2;
 gameover.fr = 0;
 gameover.showing = false;
 gameover.hiding = true;
-gameover.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(9).png'); // 626 x 144
+gameover.img = loadGameImage('speed(9).png'); // 626 x 144
 gameover.img.style.position = 'absolute';
 gameover.img.style.opacity = 0;
 gameover.img.style.zIndex = '42069';
@@ -573,7 +552,7 @@ playagain.a = -.2;
 playagain.fr = 0;
 playagain.showing = false;
 playagain.hiding = true;
-playagain.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/0b2086f2d8ebec6ebf5a1a6563e2f2b3592e38d5/speed%20(10).png');
+playagain.img = loadGameImage('speed(10).png');
 playagain.img.style.border = '0px';
 playagain.img.style.cursor = 'pointer';
 playagain.img.border = 0;
@@ -598,7 +577,7 @@ var c2s = {};
 c2s.a = -1;
 c2s.showing = true;
 c2s.hiding = false;
-c2s.img = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/speed%20(15).png'); // 337 x 75
+c2s.img = loadGameImage('speed(15).png'); // 337 x 75
 c2s.img.style.position = 'absolute';
 c2s.img.style.opacity = 0;
 c2s.img.style.zIndex = '42070';
@@ -615,7 +594,7 @@ if (localStorage.sound === undefined) {
 }
 sndo.has_sound = localStorage.sound === 'true';
 sndo.div = document.createElement('div');
-sndo.div.style.backgroundImage = 'url("https://github.com/levijude/flappy-2048/blob/main/speed%20(13).png")';
+sndo.div.style.backgroundImage = 'url("speed(13).png")';
 sndo.div.style.position = 'absolute';
 sndo.div.style.width = '64px';
 sndo.div.style.height = '64px';
@@ -740,7 +719,7 @@ if (game.bg.style.background = '#000000') {
 }
 dm.on = game.bg.style.background = '#a0a0a0';
 dm.div = document.createElement('div');
-dm.div.style.backgroundImage = 'url("https://github.com/levijude/flappy-2048/blob/main/speed%20(12).png")';
+dm.div.style.backgroundImage = 'url("speed(12).png")';
 dm.div.style.position = 'absolute';
 dm.div.style.width = '64px';
 dm.div.style.height = '64px';
@@ -785,7 +764,7 @@ ground.canvas = document.createElement('canvas');
 ground.canvas.style.position = 'absolute';
 ground.canvas.style.zIndex = '31337';
 ground.ctx = ground.canvas.getContext('2d');
-ground.bit = loadGameImage('https://github.com/levijude/flappy-2048/blob/main/download%20(1).png');
+ground.bit = loadGameImage('download(1).png');
 
 
 
