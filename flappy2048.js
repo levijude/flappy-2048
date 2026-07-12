@@ -288,7 +288,7 @@ var loadGameSound = function (n, chc) { // file name, channel count
   sch.can_play = true;
   o.channels.push(sch);
   ao.src = n;
-  if (ao.src == 'u_f1ee7vf7na-blip-131856.mp3') {
+  if (ao.src == './u_f1ee7vf7na-blip-131856.mp3') {
     ao.volume = 0.2
   }
   ao.type = "audio/wav";
@@ -511,9 +511,9 @@ spd.showing = true;
 spd.hiding = false;
 
 if (document.qvar == 0.5) {
-  spd.img = loadGameImage('speed(9).png');
+  spd.img = loadGameImage('./speed(9).png');
 } else {
-  spd.img = loadGameImage('speed(9).png');
+  spd.img = loadGameImage('./speed(9).png');
 };
 spd.img.style.position = 'absolute';
 spd.img.style.opacity = 0;
@@ -552,7 +552,7 @@ playagain.a = -.2;
 playagain.fr = 0;
 playagain.showing = false;
 playagain.hiding = true;
-playagain.img = loadGameImage('speed(10).png');
+playagain.img = loadGameImage('./speed(10).png');
 playagain.img.style.border = '0px';
 playagain.img.style.cursor = 'pointer';
 playagain.img.border = 0;
@@ -719,7 +719,7 @@ if (game.bg.style.background = '#000000') {
 }
 dm.on = game.bg.style.background = '#a0a0a0';
 dm.div = document.createElement('div');
-dm.div.style.backgroundImage = 'url("speed(12).png")';
+dm.div.style.backgroundImage = 'url("./speed(12).png")';
 dm.div.style.position = 'absolute';
 dm.div.style.width = '64px';
 dm.div.style.height = '64px';
