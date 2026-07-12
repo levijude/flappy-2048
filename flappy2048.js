@@ -432,15 +432,15 @@ var ww = 768;
 var hh = 920;
 
 
-var flap = loadGameSound('u_f1ee7vf7na-blip-131856.mp3', 3);
+var flap = loadGameSound('./u_f1ee7vf7na-blip-131856.mp3', 3);
 
-var coin = loadGameSound('u_f1ee7vf7na-blip-131856.mp3', 1);
+var coin = loadGameSound('./u_f1ee7vf7na-blip-131856.mp3', 1);
 
-var special = loadGameSound('u_f1ee7vf7na-blip-131856.mp3', 1);
+var special = loadGameSound('./u_f1ee7vf7na-blip-131856.mp3', 1);
 
-var punch = loadGameSound('u_f1ee7vf7na-blip-131856.mp3', 5);
+var punch = loadGameSound('./u_f1ee7vf7na-blip-131856.mp3', 5);
 
-var hs = loadGameSound('u_f1ee7vf7na-blip-131856.mp3', 1);
+var hs = loadGameSound('./u_f1ee7vf7na-blip-131856.mp3', 1);
 /*
 game.canvas = document.createElement('canvas');
 game.canvas.width = ww;
@@ -467,7 +467,7 @@ var wing = {};
 wing.fr = 0;
 wing.vfr = 0;
 
-wing.img = loadGameImage('speed(6).png'); // 150 x 131
+wing.img = loadGameImage('./speed(6).png'); // 150 x 131
 wing.canvas = document.createElement('canvas');
 wing.canvas.width = 150;
 wing.canvas.height = 131;
@@ -480,7 +480,7 @@ wing.ctx2 = wing.canvas2.getContext('2d');
 
 var wingfill = {};
 
-wingfill.img = loadGameImage('speed(7).png'); // 150 x 131
+wingfill.img = loadGameImage('./speed(7).png'); // 150 x 131
 wingfill.canvas = document.createElement('canvas');
 wingfill.canvas.width = 150;
 wingfill.canvas.height = 131;
@@ -491,7 +491,7 @@ logo.a = -.2;
 logo.fr = 0;
 logo.showing = true;
 logo.hiding = false;
-logo.img = loadGameImage('speed(8).png'); // 626 x 188
+logo.img = loadGameImage('./speed(8).png'); // 626 x 188
 logo.img.style.position = 'absolute';
 logo.img.style.opacity = 0;
 logo.img.style.zIndex = '42069';
@@ -530,7 +530,7 @@ gameover.a = -.2;
 gameover.fr = 0;
 gameover.showing = false;
 gameover.hiding = true;
-gameover.img = loadGameImage('speed(9).png'); // 626 x 144
+gameover.img = loadGameImage('./speed(9).png'); // 626 x 144
 gameover.img.style.position = 'absolute';
 gameover.img.style.opacity = 0;
 gameover.img.style.zIndex = '42069';
@@ -577,7 +577,7 @@ var c2s = {};
 c2s.a = -1;
 c2s.showing = true;
 c2s.hiding = false;
-c2s.img = loadGameImage('speed(15).png'); // 337 x 75
+c2s.img = loadGameImage('./speed(15).png'); // 337 x 75
 c2s.img.style.position = 'absolute';
 c2s.img.style.opacity = 0;
 c2s.img.style.zIndex = '42070';
@@ -594,7 +594,7 @@ if (localStorage.sound === undefined) {
 }
 sndo.has_sound = localStorage.sound === 'true';
 sndo.div = document.createElement('div');
-sndo.div.style.backgroundImage = 'url("speed(13).png")';
+sndo.div.style.backgroundImage = 'url("./speed(13).png")';
 sndo.div.style.position = 'absolute';
 sndo.div.style.width = '64px';
 sndo.div.style.height = '64px';
@@ -764,7 +764,7 @@ ground.canvas = document.createElement('canvas');
 ground.canvas.style.position = 'absolute';
 ground.canvas.style.zIndex = '31337';
 ground.ctx = ground.canvas.getContext('2d');
-ground.bit = loadGameImage('download(1).png');
+ground.bit = loadGameImage('./download(1).png');
 
 
 
