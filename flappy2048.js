@@ -1,7 +1,6 @@
 document.body.style.margin = '0px';
 document.body.style.overflow = 'hidden';
-  
-
+//github please stop queueing my shit for infinite time thank you
 var raf = function (x) { window.setTimeout(x, 1000 / 60); }
 if (window.requestAnimationFrame) raf = window.requestAnimationFrame;       // Firefox 23 / IE 10 / Chrome / Safari 7 (incl. iOS)
 else if (window.mozRequestAnimationFrame) raf = window.mozRequestAnimationFrame;    // Firefox < 23
