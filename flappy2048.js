@@ -287,7 +287,7 @@ var loadGameSound = function (n, chc) { // file name, channel count
   sch.can_play = true;
   o.channels.push(sch);
   ao.src = n;
-  if (ao.src == './sam (1).wav') || (ao.src == './yt1z.net - Mettaton explode sound effect (320 KBps) (1).mp3') {
+  if (ao.src == './sam (1).wav' || ao.src == './yt1z.net - Mettaton explode sound effect (320 KBps) (1).mp3') {
     ao.volume = 0.4
   }
   ao.type = "audio/wav";
