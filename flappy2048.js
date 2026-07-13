@@ -606,27 +606,27 @@ sndo.reposition = function () {
 }
 var sndoOnClick = function () {
   if (sndo.has_sound) {
-    sndo.div.style.backgroundPosition = '-64px 0px';
+    sndo.div.style.backgroundPosition = '0px 0px';
     sndo.has_sound = false;
     localStorage.sound = 'false';
   } else {
-    sndo.div.style.backgroundPosition = '0px 0px';
+    sndo.div.style.backgroundPosition = '-64px 0px';
     sndo.has_sound = true;
     localStorage.sound = 'true';
   }
 }
 sndo.div.addEventListener('click', sndoOnClick);
 if (sndo.has_sound) {
-  sndo.div.style.backgroundPosition = '0px 0px';
-} else {
   sndo.div.style.backgroundPosition = '-64px 0px';
+} else {
+  sndo.div.style.backgroundPosition = '0px 0px';
 }
 sndo.div.addEventListener('touchstart', function () {
  if (sndo.has_sound) {
-  sndo.div.style.backgroundPosition = '-64px 0px';
+  sndo.div.style.backgroundPosition = '0px 0px';
   sndo.has_sound = false;
  } else {
-  sndo.div.style.backgroundPosition = '0px 0px';
+  sndo.div.style.backgroundPosition = '-64px 0px';
   sndo.has_sound = true;
  }
 });
@@ -731,27 +731,27 @@ dm.reposition = function () {
 }
 var dmOnClick = function () {
   if (dm.on) {
-    dm.div.style.backgroundPosition = '-64px 0px';
+    dm.div.style.backgroundPosition = '0px 0px';
     dm.on = false;
     game.bg.style.background = '#000000';
   } else {
-    dm.div.style.backgroundPosition = '0px 0px';
+    dm.div.style.backgroundPosition = '-64px 0px';
     dm.on = true;
     game.bg.style.background = '#a0a0a0';
   }
 }
 dm.div.addEventListener('click', dmOnClick);
 if (dm.on) {
-  dm.div.style.backgroundPosition = '0px 0px';
-} else {
   dm.div.style.backgroundPosition = '-64px 0px';
+} else {
+  dm.div.style.backgroundPosition = '0px 0px';
 }
 dm.div.addEventListener('touchstart', function () {
  if (dm.on) {
-  dm.div.style.backgroundPosition = '-64px 0px';
+  dm.div.style.backgroundPosition = '0px 0px';
   dm.on = false;
  } else {
-  dm.div.style.backgroundPosition = '0px 0px';
+  dm.div.style.backgroundPosition = '-64px 0px';
   dm.on = true;
  }
 });
