@@ -246,7 +246,7 @@ var loadGameImage = function (n) {
    gameLoaded();
   }
  }
- o.src: require(n);
+ o.src = require(n);
  return o;
 }
 
@@ -287,7 +287,7 @@ var loadGameSound = function (n, chc) { // file name, channel count
   sch.sound = ao;
   sch.can_play = true;
   o.channels.push(sch);
-  ao.src: require(n);
+  ao.src = require(n);
   if (ao.src == './u_f1ee7vf7na-blip-131856.mp3') {
     ao.volume = 0.2
   }
