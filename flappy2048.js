@@ -288,8 +288,8 @@ var loadGameSound = function (n, chc) { // file name, channel count
   sch.can_play = true;
   o.channels.push(sch);
   ao.src = n;
-  if (ao.src == './u_f1ee7vf7na-blip-131856.mp3') {
-    ao.volume = 0.2
+  if (ao.src == './sam (1).wav') || (ao.src == './yt1z.net - Mettaton explode sound effect (320 KBps) (1).mp3') {
+    ao.volume = 0.4
   }
   ao.type = "audio/wav";
   document.body.appendChild(ao);
@@ -432,15 +432,15 @@ var ww = 768;
 var hh = 920;
 
 
-var flap = loadGameSound('./u_f1ee7vf7na-blip-131856.mp3', 3);
+var flap = loadGameSound('./jump2.wav', 3);
 
-var coin = loadGameSound('./u_f1ee7vf7na-blip-131856.mp3', 1);
+var coin = loadGameSound('./double.wav', 1);
 
-var special = loadGameSound('./u_f1ee7vf7na-blip-131856.mp3', 1);
+var special = loadGameSound('./doublespecial.wav', 1);
 
-var punch = loadGameSound('./u_f1ee7vf7na-blip-131856.mp3', 5);
+var punch = loadGameSound('./yt1z.net - Mettaton explode sound effect (320 KBps) (1).mp3', 5);
 
-var hs = loadGameSound('./u_f1ee7vf7na-blip-131856.mp3', 1);
+var hs = loadGameSound('./sam (1).wav', 1);
 /*
 game.canvas = document.createElement('canvas');
 game.canvas.width = ww;
